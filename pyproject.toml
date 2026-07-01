@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "omicsmad"
-version = "0.1.0"
+version = "0.1.1"
 description = "A robust Scikit-Learn style Feature Selector using Median Absolute Deviation (MAD) for high-throughput genomics data."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -26,4 +26,4 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/rizanb"
+Homepage = "https://github.com/rizanB/omicsmad"
