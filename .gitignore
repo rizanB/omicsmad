@@ -1,0 +1,26 @@
+# dev
+.venv/
+.env
+.vscode/
+.DS_Store
+
+# package builds & meta
+dist/
+*.egg-info/
+.hatch/
+
+# python cache
+__pycache__/
+*.py[cod]
+
+# testing & coverage
+.pytest_cache/
+.coverage*
+coverage.xml
+tests/cached_*
+
+# local scripts & outputs
+.notipy.json
+.single_run
+figures/
+datasets/
